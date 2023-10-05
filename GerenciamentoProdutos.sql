@@ -29,6 +29,7 @@ FOREIGN KEY (IdProduto) REFERENCES Produtos(ProdutoId)
 );
 
 INSERT INTO Comentarios(Autor, TextoComentario, DataComentario, IdProduto) VALUES ('Thalita', 'Ótima caneta', '2018-05-16', 1);
+INSERT INTO Comentarios(Autor, TextoComentario, DataComentario, IdProduto) VALUES ('Thalita', 'Legal', '2018-05-16', 1);
 INSERT INTO Comentarios(Autor, TextoComentario, DataComentario, IdProduto) VALUES ('João', 'Gostei do kit giz de cera', '2019-06-17', 2);
 INSERT INTO Comentarios(Autor, TextoComentario, DataComentario, IdProduto) VALUES ('Joana', 'Gostei do caderno', '2020-07-18', 3);
 INSERT INTO Comentarios(Autor, TextoComentario, DataComentario, IdProduto) VALUES ('Maria', 'Ótimo lápiz', '2022-08-19', 4);
